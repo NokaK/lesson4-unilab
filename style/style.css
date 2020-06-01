@@ -1,0 +1,35 @@
+.navbar-li {
+	display: inline-block;
+}
+.navbar-li:after {
+	content: " ";
+	display: inline-block;
+	width: 3px;
+	height: 10px;
+	background-color: black;
+	margin-left: 50px;
+}
+/*.navbar-li:before {
+	content: " ";
+	display: inline-block;
+	width: 3px;
+	height: 10px;
+	background-color: blue;
+}*/
+.logo {
+	float: right;
+}
+.navbar {
+	float: left;
+}
+header{
+	background-color: pink;
+}
+header:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+/*.clear {
+	clear: right;
+}*/
